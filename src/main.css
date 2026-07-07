@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+
+  background: linear-gradient(
+    135deg,
+    #020403 0%,
+    #5F2E1B 35%,
+    #1A2324 70%,
+    #141413 100%
+  )!important;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+}
